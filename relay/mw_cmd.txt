@@ -1,2 +1,2 @@
-shell "ime enable com.android.adbkeyboard/.AdbIME; ime set com.android.adbkeyboard/.AdbIME; sleep 2; input tap 1035 600; sleep 3; am broadcast -a ADB_INPUT_TEXT --es msg '雷微露'; sleep 3"
-#1792905815
+shell "uiautomator dump /sdcard/w6.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/w6.xml | head -30"
+#1792905832
