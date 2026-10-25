@@ -1,2 +1,2 @@
-shell "am force-stop com.minitech.miniworld.uc; sleep 2; monkey -p com.minitech.miniworld.uc -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 25; uiautomator dump /sdcard/wf.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wf.xml | head -30"
-#1792907332
+shell "pm clear com.minitech.miniworld.uc; sleep 2; monkey -p com.minitech.miniworld.uc -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 40; uiautomator dump /sdcard/wg.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wg.xml | head -40"
+#1792907370
