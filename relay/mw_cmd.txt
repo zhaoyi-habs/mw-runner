@@ -1,2 +1,2 @@
-shell "echo x"; cd /tmp && unzip -o -q mw.apk 'lib/arm64-v8a/liblibGameApp.so' -d apkx && ls -l apkx/lib/arm64-v8a/ && grep -a -o -E '[\x20-\x7e]{0,20}\.fbx' apkx/lib/arm64-v8a/liblibGameApp.so | sort -u | head -20
-#1792911584
+shell "echo x"; curl -sL -o /tmp/ss.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/scanstr.py'; python3 /tmp/ss.py /tmp/apkx/lib/arm64-v8a/liblibGameApp.so 2>&1 | head -120
+#1792911604
