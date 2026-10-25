@@ -1,2 +1,2 @@
-shell "input tap 1035 600; sleep 2; am broadcast -a ADB_CLEAR_TEXT >/dev/null; sleep 1; am broadcast -a ADB_INPUT_TEXT --es msg '谭德堂' >/dev/null; sleep 2; input tap 1035 742; sleep 2; am broadcast -a ADB_CLEAR_TEXT >/dev/null; sleep 1; input text 522631196210147931; sleep 2; input keyevent 4; sleep 1; uiautomator dump /sdcard/we.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/we.xml | head -30"
-#1792906964
+shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 2.2; $A exec-out screencap -p > /tmp/tb.png; python3 /tmp/su.py /tmp/tb.png tan1
+#1792906988
