@@ -1,2 +1,2 @@
-shell "ls -l /tmp/mw.apk; cat /tmp/dl.log"
-#1792907307
+shell "echo x"; curl -sIL --max-time 25 'https://miniworld-apk.mini1.cn/latest/miniworldMini-wp.apk' | head -20
+#1792907317
