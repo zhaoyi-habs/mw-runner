@@ -1,4 +1,1 @@
-OK|shell|Input method com.android.adbkeyboard/.AdbIME: now enabled for user #0
-Input method com.android.adbkeyboard/.AdbIME selected for user #0
-Broadcasting: Intent { act=ADB_INPUT_TEXT flg=0x400000 (has extras) }
-Broadcast completed: result=0
+WAIT|0
