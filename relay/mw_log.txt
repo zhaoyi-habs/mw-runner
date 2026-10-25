@@ -93,3 +93,4 @@ Success
 05:13:02 > shell "input tap 700 514; sleep 2; input keyevent 67; input keyevent 67; input keyevent 67; sleep 2"
 05:13:15 > ui
 05:13:27 > shell "input keyevent 4; sleep 4"
+05:13:38 > ui
