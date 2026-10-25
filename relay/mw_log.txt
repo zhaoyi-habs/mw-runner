@@ -141,3 +141,4 @@ Success
 05:25:46 > click 提交
 05:25:58 > shell "sleep 4; uiautomator dump /sdcard/wa.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wa.xml | head -30"
 05:26:28 > shell "pidof com.minitech.miniworld.uc"
+05:26:34 > shell "logcat -c; input tap 961 891; sleep 4; logcat -d -t 300 | grep -v audio | tail -40"
