@@ -1,7 +1,1 @@
-OK|shell|com_bun_miitmdid_e_a and Java_com_bun_miitmdid_e_a__)
-10-25 05:59:41.962 15437 15693 I ExceptionKeepAlive: caught throwable: , UnsatisfiedLinkError , msg: , No implementation found for int com.bun.miitmdid.e.a() (tried Java_com_bun_miitmdid_e_a and Java_com_bun_miitmdid_e_a__) , happen threadName: , Thread-44 , interrupt state: , false , alive state: , true , looper: , null
-10-25 05:59:43.176   347   378 W WVCdm   : [oemcrypto_adapter_dynamic.cpp(722):Initialize] Could not load liboemcrypto.so. Falling back to L3.  dlopen failed: library "liboemcrypto.so" not found
-10-25 05:59:44.704     0     0 I init    : Untracked pid 15597 received signal 11
-10-25 05:59:44.706     0     0 I init    : Untracked pid 15781 received signal 11
-10-25 05:59:44.709     0     0 I init    : Untracked pid 15784 received signal 11
-10-25 05:59:44.711     0     0 I init    : Untracked pid 15798 received signal 11
+WAIT|0
