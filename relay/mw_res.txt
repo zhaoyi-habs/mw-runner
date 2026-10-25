@@ -1,2 +1,1 @@
-OK|shell|x
-SHOT_OK 1787185B 27chunks 1792904404_a6
+WAIT|0
