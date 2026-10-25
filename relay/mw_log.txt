@@ -78,3 +78,4 @@ Success
 05:01:27 > ui
 05:01:39 > shell "input tap 960 613; sleep 8"
 05:01:54 > ui
+05:06:59 > ui
