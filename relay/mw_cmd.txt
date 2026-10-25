@@ -1,2 +1,2 @@
-shell "pidof com.minitech.miniworld.uc"
-#1792905987
+shell "logcat -c; input tap 961 891; sleep 4; logcat -d -t 300 | grep -v audio | tail -40"
+#1792905988
