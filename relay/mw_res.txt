@@ -1,8 +1,1 @@
-OK|shell|text=""
-text=""
-text=""
-text=""
-text=""
-text=""
-text="X"
-text="网络异常&#10;请查看网络设置或点击页面重试"
+WAIT|0
