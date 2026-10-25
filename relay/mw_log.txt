@@ -94,3 +94,4 @@ Success
 05:13:15 > ui
 05:13:27 > shell "input keyevent 4; sleep 4"
 05:13:38 > ui
+05:13:49 > shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; python3 /tmp/sf.py a8
