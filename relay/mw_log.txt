@@ -110,3 +110,4 @@ Success
 05:19:51 > shell "uiautomator dump /sdcard/w.xml >/dev/null 2>&1; cat /sdcard/w.xml"
 05:20:02 > shell "uiautomator dump /sdcard/w.xml 2>&1; ls -l /sdcard/w.xml"
 05:20:12 > shell "sed 's/></>\n</g' /sdcard/w.xml | grep -i edittext"
+05:20:23 > shell "sed 's/></>\n</g' /sdcard/w.xml | grep -o 'text=\"[^\"]*\"'"
