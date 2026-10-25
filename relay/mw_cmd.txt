@@ -1,2 +1,2 @@
-shell "input tap 960 637; sleep 8"
-#1792903759
+shell "uiautomator dump /sdcard/u.xml >/dev/null 2>&1; cat /sdcard/u.xml | tr '>' '>\n' | grep -oE 'text=\"[^\"]*\"' | grep -v 'text=\"\"'"
+#1792903760
