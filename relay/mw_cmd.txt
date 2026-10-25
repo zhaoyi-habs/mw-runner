@@ -1,2 +1,2 @@
-shell "input tap 959 862; sleep 3"
-#1792903728
+shell "uiautomator dump /sdcard/u.xml >/dev/null 2>&1; grep -o 'checked=\"true\"' /sdcard/u.xml | wc -l"
+#1792903729
