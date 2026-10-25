@@ -1,2 +1,2 @@
-shell "dumpsys input_method | grep -E 'mInputShown|mServedView|mCurMethodId'"
-#1792905651
+shell "input text 3739; sleep 2; uiautomator dump /sdcard/w3.xml >/dev/null 2>&1; sed 's/></>\n</g' /sdcard/w3.xml | grep -o 'text=\"[^\"]*\"' | grep -v 'text=\"\"'"
+#1792905667
