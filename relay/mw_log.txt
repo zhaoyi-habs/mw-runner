@@ -81,3 +81,4 @@ Success
 05:06:59 > ui
 05:07:11 > shell "input tap 960 613; sleep 7"
 05:07:24 > ui
+05:09:02 > shell "echo x"; logcat -d -t 800 2>/dev/null | grep -iE 'sms|verif|yzm|sendcode|手机|验证码|gundam|juliang|mobtech' | tail -20
