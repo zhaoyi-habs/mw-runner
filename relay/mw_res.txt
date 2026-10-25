@@ -1,1 +1,2 @@
-WAIT|0
+OK|shell|x
+SHOT_OK 2059040B 31chunks 1792904156_a3
