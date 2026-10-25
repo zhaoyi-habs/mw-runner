@@ -1,2 +1,2 @@
-shell "uiautomator dump /sdcard/w5.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/w5.xml | grep -v 'text=.\{2\}' | head -40"
-#1792905763
+shell "ls -l /sdcard/w5.xml; grep -o 'text=[^ ]*' /sdcard/w5.xml | head -40"
+#1792905781
