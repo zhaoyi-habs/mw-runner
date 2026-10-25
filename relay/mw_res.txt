@@ -1,5 +1,1 @@
-OK|shell|10-25 08:16:58.036 16819 16819 W Monkey  :  arg: "com.minitech.miniworld.uc"
-10-25 08:16:58.036 16819 16819 W Monkey  : data="com.minitech.miniworld.uc"
-10-25 08:17:33.307 16881 16881 W Monkey  : args: [-p, com.minitech.miniworld.uc, -c, android.intent.category.LAUNCHER, 1]
-10-25 08:17:33.307 16881 16881 W Monkey  :  arg: "com.minitech.miniworld.uc"
-10-25 08:17:33.307 16881 16881 W Monkey  : data="com.minitech.miniworld.uc"
+WAIT|0
