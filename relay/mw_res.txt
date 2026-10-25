@@ -1,1 +1,5 @@
-WAIT|0
+OK|shell|x
+-rw-r--r-- 1 runner runner 1774226227 Oct 25 05:54 /tmp/mw.apk
+-rw-r--r-- 1 runner runner       2406 Oct 25 05:24 /tmp/sf.py
+-rw-r--r-- 1 runner runner       2256 Oct 25 05:28 /tmp/su.py
+---
