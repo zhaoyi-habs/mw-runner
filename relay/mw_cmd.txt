@@ -1,2 +1,2 @@
-shell "input keyevent 4; sleep 3"
-#1792905473
+ui
+#1792905474
