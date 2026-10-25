@@ -45,3 +45,4 @@ Success
 04:46:15 > shell "input keyevent 4; sleep 3"
 04:46:24 > ui
 04:46:36 > shell "input tap 960 637; sleep 8"
+04:46:50 > ui
