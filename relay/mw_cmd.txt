@@ -1,2 +1,2 @@
-shot
-#1792903630
+shell "uiautomator dump /sdcard/u.xml >/dev/null 2>&1; cat /sdcard/u.xml | tr '>' '>\n' | grep -oE 'text=\"[^\"]*\"' | grep -v 'text=\"\"'"
+#1792903693
