@@ -1,2 +1,2 @@
-shell "input keyevent 4; sleep 2; input tap 961 891; sleep 6; uiautomator dump /sdcard/w8.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/w8.xml | head -40"
-#1792905866
+shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; python3 /tmp/sf.py b3
+#1792905885
