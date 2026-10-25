@@ -127,3 +127,4 @@ Success
 05:22:54 > shell "uiautomator dump /sdcard/w5.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/w5.xml | grep -v 'text=.\{2\}' | head -40"
 05:23:03 > shell "ls -l /sdcard/w5.xml; grep -o 'text=[^ ]*' /sdcard/w5.xml | head -40"
 05:23:19 > shell "sed 's/></>\n</g' /sdcard/w5.xml | grep -i -E 'EditText|Button' | sed 's/.*class=//'"
+05:23:28 > inst https://ghfast.top/https://github.com/senzhk/ADBKeyBoard/raw/master/ADBKeyboard.apk
