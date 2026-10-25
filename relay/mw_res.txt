@@ -1,1 +1,4 @@
-WAIT|0
+OK|shell|x
+total 174076
+-rw-r--r-- 1 runner runner 178253712 Sep 20 08:36 liblibGameApp.so
+.fbx
