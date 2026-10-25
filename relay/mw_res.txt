@@ -1,1 +1,1 @@
-OK|shell|package:com.minitech.miniworld
+WAIT|0
