@@ -1,2 +1,2 @@
-shell "sleep 4; uiautomator dump /sdcard/wa.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wa.xml | head -30"
-#1792905946
+shell "pidof com.minitech.miniworld.uc"
+#1792905987
