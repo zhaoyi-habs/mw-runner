@@ -1,4 +1,3 @@
-04:42:34 > click 同意，继续使用
 04:43:03 > ui
 04:43:15 > shell "input tap 1000 431; sleep 3"
 04:43:24 > shell "input text 18702058818; sleep 2"
@@ -138,3 +137,4 @@
 05:51:23 > shell "sed 's/></>\n</g' /sdcard/wi.xml | grep EditText | sed 's/.*resource-id=//;s/ text=.*bounds=/ /;s/ >//'"
 05:51:32 > shell "input tap 1000 431; sleep 2; input text 18702058818; sleep 2; input tap 960 537; sleep 2; input text 0987poiu; sleep 2; input keyevent 4; sleep 2; input tap 645 723; sleep 2; uiautomator dump /
 05:52:03 > shell "input tap 960 638; sleep 15; uiautomator dump /sdcard/wk.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wk.xml | head -40"
+05:52:35 > shell "sed 's/></>\n</g' /sdcard/wk.xml | grep -E 'X|网络异常' | cut -c1-400"
