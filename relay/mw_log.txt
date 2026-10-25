@@ -114,3 +114,4 @@ Success
 05:20:32 > shell "input tap 688 514; sleep 1; input keyevent 10; input keyevent 14; input keyevent 10; input keyevent 16; sleep 2; uiautomator dump /sdcard/w2.xml >/dev/null 2>&1; sed 's/></>\n</g' /sdcard/w2.xm
 05:20:51 > shell "dumpsys window | grep -E 'mCurrentFocus|mFocusedApp'"
 05:20:57 > shell "dumpsys input_method | grep -E 'mInputShown|mServedView|mCurMethodId'"
+05:21:09 > shell "input text 3739; sleep 2; uiautomator dump /sdcard/w3.xml >/dev/null 2>&1; sed 's/></>\n</g' /sdcard/w3.xml | grep -o 'text=\"[^\"]*\"' | grep -v 'text=\"\"'"
