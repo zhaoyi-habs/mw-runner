@@ -1,2 +1,2 @@
-shell "echo x"; setsid nohup curl -sL --retry 5 -A 'Mozilla/5.0 (Linux; Android 13)' -e 'https://www.9game.cn/minishijie/' -o /tmp/uc.apk 'https://downali.9game.cn/s1/5/1/2026092111021541_com.minitech.miniworld.uc.apk' >/tmp/ucdl.log 2>&1 </dev/null & sleep 150; ls -l /tmp/uc.apk; tail -3 /tmp/ucdl.log
-#1792916577
+shell "sleep 240; ls -l /tmp/uc.apk"
+#1792916735
