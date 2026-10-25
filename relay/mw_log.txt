@@ -41,3 +41,4 @@ Success
 04:44:39 > shot
 04:45:09 > shot
 04:45:34 > shot
+04:46:04 > shell "dumpsys window windows | grep -E 'Window #|mCurrentFocus' | head -8"
