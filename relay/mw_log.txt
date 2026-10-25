@@ -17,3 +17,4 @@
 04:25:56 abilist = x86_64,x86,arm64-v8a,armeabi-v7a,armeabi
 04:25:57 bridge  = libndk_translation.so
 04:25:58 package 服务就绪
+04:25:59 下载 APK 第 1 次
