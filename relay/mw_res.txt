@@ -1,1 +1,2 @@
-WAIT|0
+OK|inst|Performing Streamed Install
+Success
