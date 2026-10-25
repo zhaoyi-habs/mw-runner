@@ -1,2 +1,2 @@
-shell "echo x"; ls -l /tmp/mw.apk /tmp/su.py /tmp/sf.py; echo ---; tail -3 /tmp/dl.log
-#1792907767
+shell "df -h /data | tail -2"
+#1792907777
