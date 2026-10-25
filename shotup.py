@@ -64,7 +64,7 @@ if bad:
     print("SHOT_FAIL chunks", len(bad))
     raise SystemExit(1)
 meta = {"files": files, "bytes": len(d), "stamp": stamp}
-if not put("relay/mw_shot_meta.json", json.dumps(meta)):
+if not put("relay/q_meta.json", json.dumps(meta)):
     print("SHOT_FAIL meta")
     raise SystemExit(1)
 print(f"SHOT_OK {len(d)}B {n}chunks {stamp}")
