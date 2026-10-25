@@ -55,3 +55,4 @@ Success
 04:48:59 > shell "uiautomator dump /sdcard/u.xml >/dev/null 2>&1; grep -o 'checked=\"true\"' /sdcard/u.xml | wc -l"
 04:49:11 > shell "cat /sdcard/u.xml"
 04:49:20 > shell "input tap 960 637; sleep 8"
+04:49:35 > shell "uiautomator dump /sdcard/u.xml >/dev/null 2>&1; cat /sdcard/u.xml | tr '>' '>\n' | grep -oE 'text=\"[^\"]*\"' | grep -v 'text=\"\"'"
