@@ -1,2 +1,2 @@
-shell "input tap 960 638; sleep 15; uiautomator dump /sdcard/wk.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wk.xml | head -40"
-#1792907522
+shell "sed 's/></>\n</g' /sdcard/wk.xml | grep -E 'X|网络异常' | cut -c1-400"
+#1792907554
