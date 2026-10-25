@@ -1,2 +1,1 @@
-OK|shell|  mCurrentFocus=Window{26832a3 u0 com.minitech.miniworld.uc/cn.gundam.sdk.shell.activity.ProxyActivity}
-  mFocusedApp=ActivityRecord{618b0f u0 com.minitech.miniworld.uc/cn.gundam.sdk.shell.activity.ProxyActivity t9}
+WAIT|0
