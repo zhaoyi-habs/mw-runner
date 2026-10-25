@@ -1,2 +1,2 @@
-shell "curl -sL 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py' -o /tmp/sf.py; echo L=$(wc -l < /tmp/sf.py); python3 /tmp/sf.py a1"
-#1792903956
+shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; wc -l /tmp/sf.py; python3 /tmp/sf.py a1
+#1792903967
