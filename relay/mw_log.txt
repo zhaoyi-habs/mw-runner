@@ -1,4 +1,3 @@
-04:43:24 > shell "input text 18702058818; sleep 2"
 04:43:38 > ui
 04:43:50 > shell "input tap 960 637; sleep 6"
 04:44:03 > ui
@@ -138,3 +137,4 @@
 05:52:35 > shell "sed 's/></>\n</g' /sdcard/wk.xml | grep -E 'X|网络异常' | cut -c1-400"
 05:52:44 > shell "input tap 1348 151; sleep 3; input tap 960 638; sleep 20; uiautomator dump /sdcard/wl.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wl.xml | head -40"
 05:53:24 > shell "echo x"; echo "--- UA测试 ---"; curl -sI --max-time 20 -A "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/120 Mobile Safari/537.36" 'https://miniworld-apk.mini1.cn/latest/miniworldMini
+05:53:35 > shell "echo x"; setsid nohup curl -sL --retry 3 -A "Mozilla/5.0 (Linux; Android 13)" -o /tmp/mw.apk 'https://miniworld-apk.mini1.cn/latest/miniworldMini-wp.apk' >/tmp/dl.log 2>&1 </dev/null & sleep 3;
