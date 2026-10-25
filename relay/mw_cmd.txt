@@ -1,2 +1,2 @@
-shell "monkey -p com.minitech.miniworld -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 45; uiautomator dump /sdcard/wm.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wm.xml | head -30"
-#1792907811
+shell "input tap 959 695; sleep 30; uiautomator dump /sdcard/wn.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wn.xml | head -40"
+#1792907867
