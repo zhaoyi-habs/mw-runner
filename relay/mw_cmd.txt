@@ -1,2 +1,2 @@
-shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 1; $A exec-out screencap -p > /tmp/t5.png; sleep 4; $A exec-out screencap -p > /tmp/t6.png; python3 /tmp/su.py /tmp/t5.png zy_a; python3 /tmp/su.py /tmp/t6.png zy_b
-#1792906679
+shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 1; $A exec-out screencap -p > /tmp/t7.png; python3 /tmp/su.py /tmp/t7.png zy_c
+#1792906709
