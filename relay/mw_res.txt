@@ -1,1 +1,5 @@
-WAIT|0
+OK|shell|---
+cat: /tmp/dl.log: No such file or directory
+ls: /tmp/: No such file or directory
+df: '/tmp': No such file or directory
+df: '/tmp': No such file or directory
