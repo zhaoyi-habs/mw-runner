@@ -1,1 +1,6 @@
-WAIT|0
+OK|shell|x
+
+----
+Name
+lib/arm64-v8a
+lib/armeabi-v7a
