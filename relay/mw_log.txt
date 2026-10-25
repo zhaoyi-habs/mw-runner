@@ -11,3 +11,4 @@
 04:25:13 image = /usr/local/lib/android/sdk/system-images/android-30/google_apis/x86_64/
 04:25:14 KVM: 有 ✅
 04:25:15 启动模拟器
+04:25:48 ✅ 开机完成 32s
