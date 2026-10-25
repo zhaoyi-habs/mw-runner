@@ -1,2 +1,2 @@
-shell "echo D; ls /tmp | head"
-#1792907750
+shell "echo x"; ls -l /tmp/mw.apk /tmp/su.py /tmp/sf.py; echo ---; tail -3 /tmp/dl.log
+#1792907767
