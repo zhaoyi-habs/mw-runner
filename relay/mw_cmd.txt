@@ -1,2 +1,2 @@
-shell "ls -l /tmp/ | head -20; echo ---; cat /tmp/dl.log 2>&1 | tail -5; df -h /tmp | tail -2"
-#1792907735
+shell "echo x"; echo HOST; whoami; pwd; ls /tmp | head"
+#1792907749
