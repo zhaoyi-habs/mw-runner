@@ -1,4 +1,3 @@
-04:25:56 abilist = x86_64,x86,arm64-v8a,armeabi-v7a,armeabi
 04:25:57 bridge  = libndk_translation.so
 04:25:58 package 服务就绪
 04:25:59 下载 APK 第 1 次
@@ -139,3 +138,4 @@ Success
 05:39:09 > shell "input tap 1035 742; sleep 2; am broadcast -a ADB_CLEAR_TEXT >/dev/null; sleep 1; input text 320303195804233321; sleep 2; input keyevent 4; sleep 1; uiautomator dump /sdcard/wd.xml >/dev/null 2>
 05:39:27 > shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 1; $A exec-out screencap -p > /tmp/t8.png; python3 /tmp/su.py /tmp/t8.png diag
 05:39:50 > shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A exec-out screencap -p > /tmp/t9.png; python3 /tmp/su.py /tmp/t9.png diag2
+05:40:07 > shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 2.2; $A exec-out screencap -p > /tmp/ta.png; python3 /tmp/su.py /tmp/ta.png dg3
