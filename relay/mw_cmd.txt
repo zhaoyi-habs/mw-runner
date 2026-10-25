@@ -1,2 +1,2 @@
-shell "dumpsys input_method | grep -E 'mInputShown|mCurMethodId'"
-#1792906011
+shell "dumpsys window | grep -c 'InputMethod'"
+#1792906012
