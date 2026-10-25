@@ -1,2 +1,2 @@
-shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 3.0; $A exec-out screencap -p > /tmp/td.png; python3 /tmp/su.py /tmp/td.png tan3
-#1792907100
+shell "echo x"; nohup curl -sL -o /tmp/mw.apk 'https://miniworld-apk.mini1.cn/latest/miniworldMini-wp.apk' >/tmp/dl.log 2>&1 & echo STARTED
+#1792907253
