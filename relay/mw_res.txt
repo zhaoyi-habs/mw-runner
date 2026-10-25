@@ -1,1 +1,2 @@
-WAIT|0
+OK|shell|x
+SHOT_OK 118394B 2chunks 1792906770_diag
