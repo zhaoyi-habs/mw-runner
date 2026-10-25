@@ -1,1 +1,8 @@
-WAIT|0
+OK|shell|  Window #0 Window{3a49965 u0 pip-dismiss-overlay}:
+  Window #1 Window{564f5f3 u0 NavigationBar0}:
+  Window #2 Window{7866847 u0 NotificationShade}:
+  Window #3 Window{53352f8 u0 StatusBar}:
+  Window #4 Window{8468603 u0 AssistPreviewPanel}:
+  Window #5 Window{9061a59 u0 InputMethod}:
+  Window #6 Window{26832a3 u0 com.minitech.miniworld.uc/cn.gundam.sdk.shell.activity.ProxyActivity}:
+  Window #7 Window{a2ca88d u0 com.minitech.miniworld.uc/com.minitech.miniworld.MiniWorldActivity}:
