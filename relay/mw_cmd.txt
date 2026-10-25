@@ -1,2 +1,2 @@
-shell "grep -o 'text=[^ ]*' /sdcard/wo.xml | head -30; echo ---; dumpsys window | grep mCurrentFocus"
-#1792907955
+shell "logcat -c; am start -n com.minitech.miniworld/com.minitech.miniworld.StartupActivity >/dev/null 2>&1; sleep 15; logcat -d | grep -iE 'FATAL|AndroidRuntime|minitech|died|crash' | tail -40"
+#1792907964
