@@ -1,18 +1,1 @@
-OK|shell|
-     2488  2026-09-20 08:36   res/layout/vlion_native_small_template.xml
-...
-2145017903                     5458 files
-953275500  2026-09-20 08:36   assets/common_res.pkg
-261907650  2026-09-20 08:36   assets/core_res.pkg
-178253712  2026-09-20 08:36   lib/arm64-v8a/liblibGameApp.so
-171609856  2026-09-20 08:36   lib/armeabi-v7a/liblibGameApp.so
-149328334  2026-09-20 08:36   assets/material_ogles3.pkg
- 88825752  2026-09-20 08:36   assets/jiami.tsa
- 53270839  2026-09-20 08:36   assets/material_ogles2.pkg
- 34128455  2026-09-20 08:36   assets/game_script.pkg
- 34072552  2026-09-20 08:36   assets/game_script32.pkg
- 19805496  2026-09-20 08:36   lib/arm64-v8a/libffmpeg.so
- 14228348  2026-09-20 08:36   assets/first_res.pkg
- 13974140  2026-09-20 08:36   lib/armeabi-v7a/libffmpeg.so
- 11979656  2026-09-20 08:36   lib/arm64-v8a/libavcodec.so
-  8931500  2026-09-20 08:36   lib/armeabi-v7a/libavcodec.so
+WAIT|0
