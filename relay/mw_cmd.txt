@@ -1,2 +1,2 @@
-shell "logcat -d -t 300 | grep -iE 'sms|yzm|captcha|code|verify|gundam' | tail -12"
-#1792903620
+shot
+#1792903630
