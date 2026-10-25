@@ -28,3 +28,4 @@ Success
 04:30:02 启动九游版
 04:30:54 SHOT OK shot 584128B 5chunks 1792902643_1
 04:30:57 === 等待命令 ===
+04:42:18 > shell "dumpsys activity activities | grep mResumedActivity | head -1"
