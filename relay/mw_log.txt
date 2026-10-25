@@ -136,3 +136,4 @@ Success
 05:24:46 > shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; python3 /tmp/sf.py b3
 05:25:03 > shell "logcat -c; input tap 961 891; sleep 5; uiautomator dump /sdcard/w9.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/w9.xml | head -40"
 05:25:17 > shell "logcat -d -t 400 | grep -iE 'realname|verify|shiming|认证|ucsdk|gundam' | tail -30"
+05:25:27 > shell "logcat -d -t 15"
