@@ -1,1 +1,2 @@
-WAIT|0
+OK|shell|x
+SHOT_OK 118016B 2chunks 1792905704_b2
