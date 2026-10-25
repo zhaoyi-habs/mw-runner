@@ -1,4 +1,3 @@
-04:46:15 > shell "input keyevent 4; sleep 3"
 04:46:24 > ui
 04:46:36 > shell "input tap 960 637; sleep 8"
 04:46:50 > ui
@@ -138,3 +137,4 @@
 05:56:18 > shell "df -h /data | tail -2"
 05:56:25 > shell "pm uninstall com.minitech.miniworld.uc; df -h /data | tail -1"
 05:56:34 > shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; time $A install -r -t -g /tmp/mw.apk 2>&1 | tail -3
+05:56:53 > shell "monkey -p com.minitech.miniworld -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 45; uiautomator dump /sdcard/wm.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wm.xml | head -30
