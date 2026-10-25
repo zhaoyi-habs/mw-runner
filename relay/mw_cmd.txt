@@ -1,2 +1,2 @@
-shell "pm list packages | grep -i minitech"
-#1792916296
+shell "logcat -d | grep -i minitech | tail -5"
+#1792916297
