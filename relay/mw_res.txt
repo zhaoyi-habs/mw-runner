@@ -1,1 +1,1 @@
-OK shot 920390B 7chunks 1792903510_5
+WAIT|0
