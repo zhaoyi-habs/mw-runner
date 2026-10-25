@@ -1,4 +1,3 @@
-04:25:14 KVM: 有 ✅
 04:25:15 启动模拟器
 04:25:48 ✅ 开机完成 32s
 04:25:54 PIL 不可用: No module named 'PIL'
@@ -139,3 +138,4 @@ Success
 05:32:50 > shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 1; $A exec-out screencap -p > /tmp/t3.png; python3 /tmp/su.py /tmp/t3.png again3
 05:33:14 > shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A exec-out screencap -p > /tmp/t4.png; python3 /tmp/su.py /tmp/t4.png res4
 05:37:38 > shell "input tap 1035 600; sleep 2; am broadcast -a ADB_CLEAR_TEXT >/dev/null; sleep 1; am broadcast -a ADB_INPUT_TEXT --es msg '张彦' >/dev/null; sleep 2; input tap 1035 742; sleep 2; am broadcast -a A
+05:38:00 > shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 1; $A exec-out screencap -p > /tmp/t5.png; sleep 4; $A exec-out screencap -p > /tmp/t6.png; python3 /
