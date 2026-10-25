@@ -140,3 +140,4 @@ Success
 05:25:36 > shell "sed 's/></>\n</g' /sdcard/w9.xml | grep -E '提交|实名认证' | cut -c1-600"
 05:25:46 > click 提交
 05:25:58 > shell "sleep 4; uiautomator dump /sdcard/wa.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wa.xml | head -30"
+05:26:28 > shell "pidof com.minitech.miniworld.uc"
