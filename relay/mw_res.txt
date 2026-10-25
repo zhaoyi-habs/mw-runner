@@ -1,2 +1,1 @@
-OK|shell|x
-SHOT_OK 117515B 2chunks 1792907085_tan2
+WAIT|0
