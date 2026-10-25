@@ -108,3 +108,4 @@ Success
 05:19:29 > shell "input tap 686 530; sleep 3"
 05:19:39 > ui
 05:19:51 > shell "uiautomator dump /sdcard/w.xml >/dev/null 2>&1; cat /sdcard/w.xml"
+05:20:02 > shell "uiautomator dump /sdcard/w.xml 2>&1; ls -l /sdcard/w.xml"
