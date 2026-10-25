@@ -1,2 +1,2 @@
-shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 1; $A exec-out screencap -p > /tmp/t8.png; python3 /tmp/su.py /tmp/t8.png diag
-#1792906765
+shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A exec-out screencap -p > /tmp/t9.png; python3 /tmp/su.py /tmp/t9.png diag2
+#1792906788
