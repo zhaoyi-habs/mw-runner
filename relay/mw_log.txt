@@ -37,3 +37,4 @@ Success
 04:43:38 > ui
 04:43:50 > shell "input tap 960 637; sleep 6"
 04:44:03 > ui
+04:44:14 > shot
