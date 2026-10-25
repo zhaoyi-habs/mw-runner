@@ -61,3 +61,4 @@ Success
 04:51:52 > WAIT|0
 04:52:07 > shell "echo hi"
 04:52:13 > shell "echo hi"
+04:52:37 > shell "curl -sL 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py' -o /tmp/sf.py; echo L=$(wc -l < /tmp/sf.py); python3 /tmp/sf.py a1"
