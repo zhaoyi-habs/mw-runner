@@ -1,2 +1,2 @@
-shell "logcat -d | grep -i minitech | tail -5"
-#1792916297
+shell "curl -s --retry 3 --max-time 180 -o /tmp/uc.apk 'https://downali.9game.cn/s1/5/1/2026092111021541_com.minitech.miniworld.uc.apk' ; ls -l /tmp/uc.apk"
+#1792916311
