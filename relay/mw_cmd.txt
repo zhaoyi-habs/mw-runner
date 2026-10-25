@@ -1,2 +1,2 @@
-shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; time $A install -r -t -g /tmp/mw.apk 2>&1 | tail -3
-#1792907793
+shell "monkey -p com.minitech.miniworld -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 45; uiautomator dump /sdcard/wm.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wm.xml | head -30"
+#1792907811
