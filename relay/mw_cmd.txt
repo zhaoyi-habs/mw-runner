@@ -1,2 +1,2 @@
-shell "input tap 959 695; sleep 30; uiautomator dump /sdcard/wh.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wh.xml | head -40"
-#1792907424
+shell "input tap 908 168; sleep 4; uiautomator dump /sdcard/wi.xml >/dev/null 2>&1; sed 's/></>\n</g' /sdcard/wi.xml | grep -E 'EditText|text=' | sed 's/.*text=/T=/;s/class.*bounds=/B=/;s/ >//' | head -40"
+#1792907465
