@@ -1,2 +1,2 @@
-shell "pm list packages | grep -i mini; ls /tmp | head"
-#1792916992
+shell "find / -name mw.apk -size +1000M 2>/dev/null | head -3"
+#1792917017
