@@ -1,4 +1,3 @@
-04:55:52 > shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; python3 /tmp/sf.py a3
 04:57:03 > shell "input tap 1176 780; sleep 8"
 04:57:18 > shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; python3 /tmp/sf.py a4
 04:58:20 > shell "input tap 1182 954; sleep 8"
@@ -138,3 +137,4 @@
 08:22:35 > shell "echo x"; ls -l /tmp/uc.apk"
 08:22:44 > shell "ls -l /tmp/uc.apk"
 08:22:58 > shell "echo x"; setsid nohup curl -sL --retry 5 -A 'Mozilla/5.0 (Linux; Android 13)' -e 'https://www.9game.cn/minishijie/' -o /tmp/uc.apk 'https://downali.9game.cn/s1/5/1/2026092111021541_com.minitech
+08:25:37 > shell "sleep 240; ls -l /tmp/uc.apk"
