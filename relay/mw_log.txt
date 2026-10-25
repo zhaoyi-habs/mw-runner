@@ -33,3 +33,4 @@ Success
 04:42:34 > click 同意，继续使用
 04:43:03 > ui
 04:43:15 > shell "input tap 1000 431; sleep 3"
+04:43:24 > shell "input text 18702058818; sleep 2"
