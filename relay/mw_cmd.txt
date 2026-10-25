@@ -1,2 +1,2 @@
-shell "df -h /data | tail -2"
-#1792907777
+shell "pm uninstall com.minitech.miniworld.uc; df -h /data | tail -1"
+#1792907778
