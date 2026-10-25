@@ -1,2 +1,2 @@
-shell "grep -o 'text=[^ ]*' /sdcard/w4.xml | head -40"
-#1792905742
+shell "input keyevent 4; sleep 4"
+#1792905762
