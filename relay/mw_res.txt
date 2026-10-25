@@ -1,1 +1,2 @@
-WAIT|0
+OK|shell|UI hierchary dumped to: /sdcard/w.xml
+-rw------- 1 u0_a164 u0_a164 14919 2026-10-25 05:20 /sdcard/w.xml
