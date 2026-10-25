@@ -1,2 +1,2 @@
-shot
-#1792903508
+shell "dumpsys window windows | grep -E 'Window #|mCurrentFocus' | head -8"
+#1792903563
