@@ -1,2 +1,2 @@
-shell "ls -l /sdcard/w4.xml"
-#1792905740
+shell "grep -c text= /sdcard/w4.xml"
+#1792905741
