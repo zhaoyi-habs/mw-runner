@@ -1,2 +1,2 @@
-ui
-#1792905569
+shell "uiautomator dump /sdcard/w.xml >/dev/null 2>&1; cat /sdcard/w.xml"
+#1792905590
