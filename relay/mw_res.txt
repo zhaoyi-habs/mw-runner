@@ -1,2 +1,1 @@
-OK|shell|x
-SHOT_OK 138866B 3chunks 1792906084_toast1
+WAIT|0
