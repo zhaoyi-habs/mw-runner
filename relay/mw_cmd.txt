@@ -1,2 +1,2 @@
-shell "echo x"; unzip -l /tmp/mw.apk "lib/*" 2>/dev/null | awk '{print $4}' | cut -d/ -f1-2 | sort -u | head -20
-#1792911539
+shell "echo x"; cd /tmp && rm -rf apkx && mkdir apkx && unzip -o -q mw.apk 'classes*.dex' -d apkx && ls -l apkx | head
+#1792911566
