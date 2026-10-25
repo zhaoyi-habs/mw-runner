@@ -77,3 +77,4 @@ Success
 05:01:14 > shell "input tap 1196 925; sleep 6"
 05:01:27 > ui
 05:01:39 > shell "input tap 960 613; sleep 8"
+05:01:54 > ui
