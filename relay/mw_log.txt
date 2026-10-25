@@ -129,3 +129,4 @@ Success
 05:23:19 > shell "sed 's/></>\n</g' /sdcard/w5.xml | grep -i -E 'EditText|Button' | sed 's/.*class=//'"
 05:23:28 > inst https://ghfast.top/https://github.com/senzhk/ADBKeyBoard/raw/master/ADBKeyboard.apk
 05:23:37 > shell "ime enable com.android.adbkeyboard/.AdbIME; ime set com.android.adbkeyboard/.AdbIME; sleep 2; input tap 1035 600; sleep 3; am broadcast -a ADB_INPUT_TEXT --es msg '雷微露'; sleep 3"
+05:23:53 > shell "uiautomator dump /sdcard/w6.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/w6.xml | head -30"
