@@ -1,1 +1,1 @@
-OK shot 2119828B 16chunks 1792903632_7
+WAIT|0
