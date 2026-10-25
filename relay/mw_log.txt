@@ -31,3 +31,4 @@ Success
 04:42:18 > shell "dumpsys activity activities | grep mResumedActivity | head -1"
 04:42:24 > ui
 04:42:34 > click 同意，继续使用
+04:43:03 > ui
