@@ -1,1 +1,12 @@
-WAIT|0
+OK|shell|1296,590]">
+T="输入密码" resource-id="cn.uc.gamesdk.accountUnified:id/ac_pwd_input" B="[624,485][1296,590]" />
+T="" resource-id="cn.uc.gamesdk.accountUnified:id/view_pwd_divider" B="[624,590][1296,591]" />
+T="登录" resource-id="cn.uc.gamesdk.accountUnified:id/ac_btn_pwd_login" B="[624,591][1296,686]" />
+T="" resource-id="cn.uc.gamesdk.accountUnified:id/layout_license_bar" B="[582,702][1338,788]">
+T="" resource-id="" B="[624,702][1296,788]">
+T="" resource-id="cn.uc.gamesdk.accountUnified:id/cb_check_licence" B="[624,702][666,744]" />
+T="阅读并同意《平台手机账号服务协议》《平台手机账号隐私政策》《用户协议》《隐私权政策》" resource-id="cn.uc.gamesdk.accountUnified:id/tv_show_licence" B="[687,703][1296,788]" />
+T="" resource-id="cn.uc.gamesdk.accountUnified:id/layout_bottom_bar" B="[582,820][1338,904]">
+T="" resource-id="" B="[624,820][1296,904]">
+T="" resource-id="" B="[624,820][1296,904]">
+T="" resource-id="" B="[891,820][1028,904]" />
