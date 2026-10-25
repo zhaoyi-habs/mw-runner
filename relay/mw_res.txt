@@ -1,2 +1,1 @@
-OK|shell|x
--rw-r--r-- 1 runner runner 111480832 Oct 25 08:20 /tmp/uc.apk
+WAIT|0
