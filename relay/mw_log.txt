@@ -133,3 +133,4 @@ Success
 05:24:02 > shell "input tap 1035 742; sleep 2; input text 362324198812150029; sleep 2; uiautomator dump /sdcard/w7.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/w7.xml | head -30"
 05:24:19 > shell "sed 's/></>\n</g' /sdcard/w7.xml | grep 提交 | grep -o 'bounds=[^/]*'"
 05:24:27 > shell "input keyevent 4; sleep 2; input tap 961 891; sleep 6; uiautomator dump /sdcard/w8.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/w8.xml | head -40"
+05:24:46 > shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; python3 /tmp/sf.py b3
