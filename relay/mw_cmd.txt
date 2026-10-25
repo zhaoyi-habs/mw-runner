@@ -1,2 +1,2 @@
-click 提交
-#1792905945
+shell "sleep 4; uiautomator dump /sdcard/wa.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wa.xml | head -30"
+#1792905946
