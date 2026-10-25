@@ -2,3 +2,5 @@
 04:25:07 磁盘准备
 04:25:08 AVD_ROOT = /mnt/avd
 04:25:09 WORK     = /mnt/mw
+04:25:10 df:
+/dev/root       145G   40G  105G  28% /
