@@ -1,4 +1,3 @@
-04:30:01 游戏已装: True
 04:30:02 启动九游版
 04:30:54 SHOT OK shot 584128B 5chunks 1792902643_1
 04:30:57 === 等待命令 ===
@@ -138,3 +137,4 @@
 05:48:29 > shell "ls -l /tmp/mw.apk; cat /tmp/dl.log"
 05:48:38 > shell "echo x"; curl -sIL --max-time 25 'https://miniworld-apk.mini1.cn/latest/miniworldMini-wp.apk' | head -20
 05:48:54 > shell "am force-stop com.minitech.miniworld.uc; sleep 2; monkey -p com.minitech.miniworld.uc -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 25; uiautomator dump /sdcard/wf.xml >/dev/null
+05:49:32 > shell "pm clear com.minitech.miniworld.uc; sleep 2; monkey -p com.minitech.miniworld.uc -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 40; uiautomator dump /sdcard/wg.xml >/dev/null 2>&1
