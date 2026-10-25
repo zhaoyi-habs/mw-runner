@@ -121,3 +121,4 @@ Success
 05:22:03 > shell "sed 's/></>\n</g' /sdcard/w4.xml | grep -o 'text="[^"]*"'"
 05:22:12 > shell "sed 's/></>\n</g' /sdcard/w4.xml | grep -o 'text=[^ ]*' | grep -v 'text=$theEmpty'"
 05:22:21 > shell "ls -l /sdcard/w4.xml"
+05:22:27 > shell "grep -c text= /sdcard/w4.xml"
