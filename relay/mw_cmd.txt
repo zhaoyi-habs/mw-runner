@@ -1,2 +1,2 @@
-shell "logcat -d -t 400 | grep -iE 'realname|verify|shiming|认证|ucsdk|gundam' | tail -30"
-#1792905903
+shell "logcat -d -t 15"
+#1792905925
