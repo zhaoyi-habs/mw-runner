@@ -1,2 +1,2 @@
-shell "echo x"; setsid nohup curl -sL --retry 3 -o /tmp/uc.apk 'https://downali.9game.cn/s1/5/1/2026092111021541_com.minitech.miniworld.uc.apk' >/tmp/ucdl.log 2>&1 </dev/null & sleep 120; ls -l /tmp/uc.apk
-#1792916320
+shell "sleep 90; ls -l /tmp/uc.apk"
+#1792916448
