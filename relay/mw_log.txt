@@ -4,3 +4,6 @@
 04:25:09 WORK     = /mnt/mw
 04:25:10 df:
 /dev/root       145G   40G  105G  28% /
+
+04:25:12 df AVD 所在盘:
+/dev/root       145G   40G  105G  28% /
