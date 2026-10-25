@@ -1,1 +1,2 @@
-WAIT|0
+OK|shell|Filesystem      Size  Used Avail Use% Mounted on
+/dev/block/dm-5  16G  2.2G   13G  15% /storage/emulated/0/Android/obb
