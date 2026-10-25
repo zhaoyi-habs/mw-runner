@@ -1,2 +1,2 @@
-shell "uiautomator dump /sdcard/w4.xml 2>&1; ls -l /sdcard/w4.xml; sed 's/></>\n</g' /sdcard/w4.xml | grep -c EditText"
-#1792905685
+shell "sed 's/></>\n</g' /sdcard/w4.xml | grep -i edittext | sed 's/.*text=\("[^\"]*\)\".*/T=\1/'"
+#1792905686
