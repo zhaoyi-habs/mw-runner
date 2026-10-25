@@ -1,2 +1,2 @@
-shell "input tap 959 695; sleep 30; uiautomator dump /sdcard/wn.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wn.xml | head -40"
-#1792907867
+shell "monkey -p com.minitech.miniworld -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 35; uiautomator dump /sdcard/wo.xml >/dev/null 2>&1; sed 's/></>\n</g' /sdcard/wo.xml | grep -E '同意|不同意' | sed 's/.*text=/T=/;s/class.*bounds=/ B=/;s/ >//'"
+#1792907909
