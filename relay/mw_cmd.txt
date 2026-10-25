@@ -1,2 +1,2 @@
-shell "dumpsys window | grep -c 'InputMethod'"
-#1792906012
+shell "sed 's/></>\n</g' /sdcard/w9.xml | grep 'clickable=\"true\"' | sed 's/.*text=/text=/;s/resource-id.*bounds=/ bounds=/;s/ >//' | cut -c1-160"
+#1792906059
