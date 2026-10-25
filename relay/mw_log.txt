@@ -48,3 +48,4 @@ Success
 04:46:50 > ui
 04:47:01 > shell "logcat -d -t 300 | grep -iE 'sms|yzm|captcha|code|verify|gundam' | tail -12"
 04:47:11 > shot
+04:48:15 > shell "uiautomator dump /sdcard/u.xml >/dev/null 2>&1; cat /sdcard/u.xml | tr '>' '>\n' | grep -oE 'text=\"[^\"]*\"' | grep -v 'text=\"\"'"
