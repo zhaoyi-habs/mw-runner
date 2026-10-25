@@ -111,3 +111,4 @@ Success
 05:20:02 > shell "uiautomator dump /sdcard/w.xml 2>&1; ls -l /sdcard/w.xml"
 05:20:12 > shell "sed 's/></>\n</g' /sdcard/w.xml | grep -i edittext"
 05:20:23 > shell "sed 's/></>\n</g' /sdcard/w.xml | grep -o 'text=\"[^\"]*\"'"
+05:20:32 > shell "input tap 688 514; sleep 1; input keyevent 10; input keyevent 14; input keyevent 10; input keyevent 16; sleep 2; uiautomator dump /sdcard/w2.xml >/dev/null 2>&1; sed 's/></>\n</g' /sdcard/w2.xm
