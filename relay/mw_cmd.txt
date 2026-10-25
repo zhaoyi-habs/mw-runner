@@ -1,2 +1,2 @@
-shell "input tap 686 514; sleep 2; input keyevent 67; sleep 1; input keyevent 4; sleep 3"
-#1792905300
+ui
+#1792905301
