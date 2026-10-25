@@ -60,3 +60,4 @@ Success
 04:51:34 > ping
 04:51:52 > WAIT|0
 04:52:07 > shell "echo hi"
+04:52:13 > shell "echo hi"
