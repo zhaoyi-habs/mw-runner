@@ -1,2 +1,1 @@
-OK|shell|x
-SHOT_OK 892803B 14chunks 1792904955_a7
+WAIT|0
