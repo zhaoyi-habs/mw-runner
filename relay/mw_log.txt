@@ -120,3 +120,4 @@ Success
 05:21:43 > shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; python3 /tmp/sf.py b2
 05:22:03 > shell "sed 's/></>\n</g' /sdcard/w4.xml | grep -o 'text="[^"]*"'"
 05:22:12 > shell "sed 's/></>\n</g' /sdcard/w4.xml | grep -o 'text=[^ ]*' | grep -v 'text=$theEmpty'"
+05:22:21 > shell "ls -l /sdcard/w4.xml"
