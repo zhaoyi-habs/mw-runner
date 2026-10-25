@@ -46,3 +46,4 @@ Success
 04:46:24 > ui
 04:46:36 > shell "input tap 960 637; sleep 8"
 04:46:50 > ui
+04:47:01 > shell "logcat -d -t 300 | grep -iE 'sms|yzm|captcha|code|verify|gundam' | tail -12"
