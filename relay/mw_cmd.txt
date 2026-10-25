@@ -1,2 +1,2 @@
-shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 1; $A exec-out screencap -p > /tmp/t7.png; python3 /tmp/su.py /tmp/t7.png zy_c
-#1792906709
+shell "input tap 1035 742; sleep 2; am broadcast -a ADB_CLEAR_TEXT >/dev/null; sleep 1; input text 320303195804233321; sleep 2; input keyevent 4; sleep 1; uiautomator dump /sdcard/wd.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wd.xml | head -30"
+#1792906747
