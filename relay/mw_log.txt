@@ -1,4 +1,3 @@
-04:51:52 > WAIT|0
 04:52:07 > shell "echo hi"
 04:52:13 > shell "echo hi"
 04:52:37 > shell "curl -sL 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py' -o /tmp/sf.py; echo L=$(wc -l < /tmp/sf.py); python3 /tmp/sf.py a1"
@@ -138,3 +137,4 @@
 08:16:55 > shell "am force-stop com.minitech.miniworld; sleep 2; monkey -p com.minitech.miniworld.uc -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 25; uiautomator dump /sdcard/wa1.xml >/dev/null 2
 08:17:33 > shell "monkey -p com.minitech.miniworld.uc -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 35; uiautomator dump /sdcard/wa2.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wa2.xml | hea
 08:18:18 > shell "pm list packages | grep -i minitech"
+08:18:24 > shell "logcat -d | grep -i minitech | tail -5"
