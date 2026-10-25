@@ -1,1 +1,2 @@
-WAIT|0
+OK|shell|<node index="0" text="X" resource-id="" class="android.widget.TextView" package="com.minitech.miniworld.uc" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[1317,120][1380,183]" />
+<node index="1" text="网络异常&#10;请查看网络设置或点击页面重试" resource-id="" class="android.widget.TextView" package="com.minitech.miniworld.uc" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[708,495][1212,617]" />
