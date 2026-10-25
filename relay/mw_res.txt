@@ -1,3 +1,1 @@
-OK|shell|x
-SHOT_OK 117566B 2chunks 1792906687_zy_a
-SHOT_OK 117162B 2chunks 1792906692_zy_b
+WAIT|0
