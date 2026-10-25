@@ -1,2 +1,2 @@
-shell "echo x"; nohup curl -sL -o /tmp/mw.apk 'https://miniworld-apk.mini1.cn/latest/miniworldMini-wp.apk' >/tmp/dl.log 2>&1 & echo STARTED
-#1792907253
+shell "ls -l /tmp/mw.apk; cat /tmp/dl.log"
+#1792907307
