@@ -1,6 +1,3 @@
-04:25:12 df AVD 所在盘:
-/dev/root       145G   40G  105G  28% /
-
 04:25:13 image = /usr/local/lib/android/sdk/system-images/android-30/google_apis/x86_64/
 04:25:14 KVM: 有 ✅
 04:25:15 启动模拟器
@@ -141,3 +138,4 @@ Success
 05:28:01 > shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; curl -sL -o /tmp/su.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotup.py'; $A shell input tap 961 891; sleep 1; $
 05:28:26 > shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; curl -sL -o /tmp/su.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotup.py?x=$RANDOM'; $A shell input tap 961 891; 
 05:32:50 > shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 1; $A exec-out screencap -p > /tmp/t3.png; python3 /tmp/su.py /tmp/t3.png again3
+05:33:14 > shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A exec-out screencap -p > /tmp/t4.png; python3 /tmp/su.py /tmp/t4.png res4
