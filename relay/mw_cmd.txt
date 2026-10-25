@@ -1,2 +1,2 @@
-shell "dumpsys activity activities | grep mResumedActivity | head -1"
-#1792903337
+ui
+#1792903338
