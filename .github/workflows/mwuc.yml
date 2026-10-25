@@ -1,0 +1,63 @@
+name: MwUC
+
+# 九游版 com.minitech.miniworld.uc (v1.59.0 渠道服)
+# 用九游账号体系，不需要 QQ/微信，重点验证是否有游客模式
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mwuc
+  cancel-in-progress: true
+
+jobs:
+  c:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: apk-build
+
+      - name: Free disk space
+        run: |
+          df -h /
+          sudo rm -rf /usr/share/dotnet /opt/hostedtoolcache/CodeQL \
+                      /usr/local/share/powershell /usr/share/swift /opt/az \
+                      /usr/local/.ghcup /usr/local/lib/android/sdk/ndk \
+                      /usr/local/lib/android/sdk/cmake 2>/dev/null || true
+          sudo apt-get clean
+          df -h /
+
+      - name: Install system image
+        env:
+          ANDROID_HOME: /usr/local/lib/android/sdk
+          ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+        run: |
+          SM=/usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager
+          [ -x "$SM" ] || SM=$(find /usr/local/lib/android/sdk/cmdline-tools -name sdkmanager -type f | head -1)
+          yes | "$SM" --licenses > /dev/null 2>&1 || true
+          echo no | "$SM" --install "system-images;android-30;google_apis;x86_64" 2>&1 | tail -3
+
+      - name: Prepare /mnt
+        run: |
+          sudo mkdir -p /mnt/avd /mnt/mw
+          sudo chown -R $(id -u):$(id -g) /mnt/avd /mnt/mw
+          df -h /mnt
+          echo "KVM: $(ls -l /dev/kvm 2>/dev/null || echo none)"
+
+      - name: Run controller
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          ANDROID_HOME: /usr/local/lib/android/sdk
+          ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+          ANDROID_AVD_HOME: /mnt/avd
+        run: |
+          echo "" > relay/mw_cmd.txt
+          echo "BOOTING|0" > relay/mw_res.txt
+          sudo chmod 666 /dev/kvm 2>/dev/null || true
+          python3 mwuc.py
