@@ -52,3 +52,4 @@ Success
 04:48:26 > shell "uiautomator dump /sdcard/u.xml >/dev/null 2>&1; cat /sdcard/u.xml | tr '>' '>\n' | grep -E '服务协议|CheckBox|checked=\"true\"' | head -6"
 04:48:37 > shell "uiautomator dump /sdcard/u.xml >/dev/null 2>&1; cat /sdcard/u.xml | tr '>' '>\n' | grep -E '平台手机账号服务协议'"
 04:48:49 > shell "input tap 959 862; sleep 3"
+04:48:59 > shell "uiautomator dump /sdcard/u.xml >/dev/null 2>&1; grep -o 'checked=\"true\"' /sdcard/u.xml | wc -l"
