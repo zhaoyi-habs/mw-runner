@@ -1,2 +1,1 @@
-OK|shell|x
-SHOT_OK 135349B 3chunks 1792906811_dg3
+WAIT|0
