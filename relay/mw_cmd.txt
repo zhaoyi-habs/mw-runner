@@ -1,2 +1,2 @@
-shell "sed 's/></>\n</g' /sdcard/w4.xml | grep -o 'text="[^"]*"'"
-#1792905722
+shell "sed 's/></>\n</g' /sdcard/w4.xml | grep -o 'text=[^ ]*' | grep -v 'text=$theEmpty'"
+#1792905731
