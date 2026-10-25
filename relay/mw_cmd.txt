@@ -1,2 +1,2 @@
-shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; wc -l /tmp/sf.py; python3 /tmp/sf.py a1
-#1792903967
+shell "input tap 518 585; sleep 3"
+#1792904042
