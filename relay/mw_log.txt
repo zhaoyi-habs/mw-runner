@@ -117,3 +117,4 @@ Success
 05:21:09 > shell "input text 3739; sleep 2; uiautomator dump /sdcard/w3.xml >/dev/null 2>&1; sed 's/></>\n</g' /sdcard/w3.xml | grep -o 'text=\"[^\"]*\"' | grep -v 'text=\"\"'"
 05:21:27 > shell "uiautomator dump /sdcard/w4.xml 2>&1; ls -l /sdcard/w4.xml; sed 's/></>\n</g' /sdcard/w4.xml | grep -c EditText"
 05:21:34 > shell "sed 's/></>\n</g' /sdcard/w4.xml | grep -i edittext | sed 's/.*text=\("[^\"]*\)\".*/T=\1/'"
+05:21:43 > shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; python3 /tmp/sf.py b2
