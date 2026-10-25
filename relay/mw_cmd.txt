@@ -1,2 +1,2 @@
-shell "cd /tmp && unzip -l mw.apk 'lib/*' 2>/dev/null | awk '{print \$4}' | cut -d/ -f1-2 | sort -u | head -20"
-#1792911528
+shell "echo x"; unzip -l /tmp/mw.apk "lib/*" 2>/dev/null | awk '{print $4}' | cut -d/ -f1-2 | sort -u | head -20
+#1792911539
