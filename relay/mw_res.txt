@@ -1,1 +1,6 @@
-WAIT|0
+OK|shell|InputConnection@b9b799a finished=false mParentInputMethodManager.mActive=false mServedView=null}
+  mCurMethodId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+  mShowRequested=true mShowExplicitlyRequested=true mShowForced=false mInputShown=true
+  mIInputContext=ControlledInputConnectionWrapper{connection=android.view.inputmethod.BaseInputConnection@4094d7d finished=false mParentInputMethodManager.mActive=true mServedView=null}
+  mServedView=cn.uc.gamesdk.account.unified.uc.ng.view.widget.MultiEditText{7e1cd8a VFED..CL. .F...... 0,11-125,95 #1 aid=3}
+  mServedInputConnectionWrapper=ControlledInputConnectionWrapper{connection=com.android.internal.widget.EditableInputConnection@c88bd40 finished=false mParentInputMethodManager.mActive=true mServedView=cn.uc.gamesdk.account.unified.uc.ng.view.widget.MultiEditText{7e1cd8a VFED..CL. .F...... 0,11-125,95 #1 aid=3}}
