@@ -1,3 +1,1 @@
-OK|shell|x
-68 /tmp/sf.py
-SHOT_OK 2119828B 32chunks 1792903972_a1
+WAIT|0
