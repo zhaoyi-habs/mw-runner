@@ -1,2 +1,2 @@
-shell "echo x"; curl -sIL --max-time 25 'https://miniworld-apk.mini1.cn/latest/miniworldMini-wp.apk' | head -20
-#1792907317
+shell "am force-stop com.minitech.miniworld.uc; sleep 2; monkey -p com.minitech.miniworld.uc -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 25; uiautomator dump /sdcard/wf.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wf.xml | head -30"
+#1792907332
