@@ -25,3 +25,4 @@
 04:30:00 install → Performing Streamed Install
 Success
 04:30:01 游戏已装: True
+04:30:02 启动九游版
