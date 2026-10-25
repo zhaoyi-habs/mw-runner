@@ -1,4 +1,3 @@
-04:25:07 磁盘准备
 04:25:08 AVD_ROOT = /mnt/avd
 04:25:09 WORK     = /mnt/mw
 04:25:10 df:
@@ -143,3 +142,4 @@ Success
 05:26:34 > shell "logcat -c; input tap 961 891; sleep 4; logcat -d -t 300 | grep -v audio | tail -40"
 05:26:52 > shell "dumpsys input_method | grep -E 'mInputShown|mCurMethodId'"
 05:26:58 > shell "dumpsys window | grep -c 'InputMethod'"
+05:27:41 > shell "sed 's/></>\n</g' /sdcard/w9.xml | grep 'clickable=\"true\"' | sed 's/.*text=/text=/;s/resource-id.*bounds=/ bounds=/;s/ >//' | cut -c1-160"
