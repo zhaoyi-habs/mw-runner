@@ -1,1 +1,1 @@
-OK|shell|  mCurrentFocus=Window{2c37963 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}
+WAIT|0
