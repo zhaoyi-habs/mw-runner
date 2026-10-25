@@ -1,2 +1,2 @@
-shell "uiautomator dump /sdcard/u.xml >/dev/null 2>&1; grep -o 'checked=\"true\"' /sdcard/u.xml | wc -l"
-#1792903729
+shell "cat /sdcard/u.xml"
+#1792903749
