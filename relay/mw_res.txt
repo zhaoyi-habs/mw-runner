@@ -1,6 +1,1 @@
-OK|shell|10-25 05:25:27.530   336  7737 E android.hardware.audio.service.ranchu: pcmWrite:203 pcm_write failed with cannot prepare channel: Device or resource busy (-1)
-10-25 05:25:27.530   336  7737 E android.hardware.audio.service.ranchu: device/generic/goldfish/audio/talsa.cpp:pcmWrite:204 failure: false
-10-25 05:25:27.552   336  7737 E android.hardware.audio.service.ranchu: pcmWrite:203 pcm_write failed with cannot prepare channel: Device or resource busy (-1)
-10-25 05:25:27.552   336  7737 E android.hardware.audio.service.ranchu: device/generic/goldfish/audio/talsa.cpp:pcmWrite:204 failure: false
-10-25 05:25:27.574   336  7737 E android.hardware.audio.service.ranchu: pcmWrite:203 pcm_write failed with cannot prepare channel: Device or resource busy (-1)
-10-25 05:25:27.574   336  7737 E android.hardware.audio.service.ranchu: device/generic/goldfish/audio/talsa.cpp:pcmWrite:204 failure: false
+WAIT|0
