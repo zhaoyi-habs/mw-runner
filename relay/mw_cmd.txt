@@ -1,2 +1,2 @@
-shell "sed 's/></>\n</g' /sdcard/w.xml | grep -o 'text=\"[^\"]*\"'"
-#1792905621
+shell "input tap 688 514; sleep 1; input keyevent 10; input keyevent 14; input keyevent 10; input keyevent 16; sleep 2; uiautomator dump /sdcard/w2.xml >/dev/null 2>&1; sed 's/></>\n</g' /sdcard/w2.xml | grep -i edittext"
+#1792905631
