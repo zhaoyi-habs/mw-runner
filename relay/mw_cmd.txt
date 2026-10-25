@@ -1,2 +1,2 @@
-shell "sed 's/></>\n</g' /sdcard/w5.xml | grep -i -E 'EditText|Button' | sed 's/.*class=//'"
-#1792905798
+inst https://ghfast.top/https://github.com/senzhk/ADBKeyBoard/raw/master/ADBKeyboard.apk
+#1792905807
