@@ -1,4 +1,3 @@
-04:52:37 > shell "curl -sL 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py' -o /tmp/sf.py; echo L=$(wc -l < /tmp/sf.py); python3 /tmp/sf.py a1"
 04:52:48 > shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; wc -l /tmp/sf.py; python3 /tmp/sf.py a1
 04:54:04 > shell "input tap 518 585; sleep 3"
 04:54:14 > shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; python3 /tmp/sf.py a2
@@ -138,3 +137,4 @@
 08:18:24 > shell "logcat -d | grep -i minitech | tail -5"
 08:18:33 > shell "curl -s --retry 3 --max-time 180 -o /tmp/uc.apk 'https://downali.9game.cn/s1/5/1/2026092111021541_com.minitech.miniworld.uc.apk' ; ls -l /tmp/uc.apk"
 08:18:42 > shell "echo x"; setsid nohup curl -sL --retry 3 -o /tmp/uc.apk 'https://downali.9game.cn/s1/5/1/2026092111021541_com.minitech.miniworld.uc.apk' >/tmp/ucdl.log 2>&1 </dev/null & sleep 120; ls -l /tmp/u
+08:20:49 > shell "sleep 90; ls -l /tmp/uc.apk"
