@@ -1,2 +1,2 @@
-shell "echo x"; echo HOST; whoami; pwd; ls /tmp | head"
-#1792907749
+shell "echo D; ls /tmp | head"
+#1792907750
