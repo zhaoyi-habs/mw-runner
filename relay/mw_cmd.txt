@@ -1,2 +1,2 @@
-shell "input tap 1000 431; sleep 3"
-#1792903393
+shell "input text 18702058818; sleep 2"
+#1792903394
