@@ -1,2 +1,2 @@
-shell "pidof com.minitech.miniworld; dumpsys window | grep mCurrentFocus"
-#1792907988
+shell "logcat -d | grep -iE 'libmsaoaidsec|dlopen|UnsatisfiedLink|SIGSEGV|signal 11' | tail -20"
+#1792907989
