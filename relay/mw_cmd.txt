@@ -1,2 +1,2 @@
-shell "uiautomator dump /sdcard/w.xml 2>&1; ls -l /sdcard/w.xml"
-#1792905600
+shell "sed 's/></>\n</g' /sdcard/w.xml | grep -i edittext"
+#1792905611
