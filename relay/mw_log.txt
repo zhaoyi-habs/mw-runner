@@ -9,3 +9,4 @@
 /dev/root       145G   40G  105G  28% /
 
 04:25:13 image = /usr/local/lib/android/sdk/system-images/android-30/google_apis/x86_64/
+04:25:14 KVM: 有 ✅
