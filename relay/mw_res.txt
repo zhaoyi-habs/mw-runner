@@ -1,2 +1,1 @@
-OK|shell|Success
-/dev/block/dm-5  16G  1.7G   14G  12% /storage/emulated/0/Android/obb
+WAIT|0
