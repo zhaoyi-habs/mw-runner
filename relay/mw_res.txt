@@ -1,1 +1,3 @@
-WAIT|0
+OK|shell|ntent-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[807,472][932,556]" />
+<node NAF="true" index="2" text="" resource-id="" class="android.widget.EditText" package="com.minitech.miniworld.uc" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[990,472][1114,556]" />
+<node NAF="true" index="3" text="" resource-id="" class="android.widget.EditText" package="com.minitech.miniworld.uc" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[1172,472][1296,556]" />
