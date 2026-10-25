@@ -1,2 +1,1 @@
-OK|shell|x
-SHOT_OK 136715B 3chunks 1792906994_tan1
+WAIT|0
