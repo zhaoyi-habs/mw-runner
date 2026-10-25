@@ -1,1 +1,22 @@
-WAIT|0
+OK|shell|text=""
+text=""
+text=""
+text=""
+text=""
+text=""
+text=""
+text=""
+text=""
+text=""
+text=""
+text=""
+text=""
+text=""
+text="Sunday,
+text="19°C"
+text=""
+text=""
+text="Chrome"
+text="Messages"
+---
+  mCurrentFocus=Window{2c37963 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}
