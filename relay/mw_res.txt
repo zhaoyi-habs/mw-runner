@@ -1,4 +1,1 @@
-OK|shell|L=
-/bin/sh: 1: cannot open /tmp/sf.py: No such file
-/system/bin/sh: curl: inaccessible or not found
-/system/bin/sh: python3: inaccessible or not found
+WAIT|0
