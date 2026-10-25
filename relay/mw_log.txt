@@ -123,3 +123,4 @@ Success
 05:22:21 > shell "ls -l /sdcard/w4.xml"
 05:22:27 > shell "grep -c text= /sdcard/w4.xml"
 05:22:33 > shell "grep -o 'text=[^ ]*' /sdcard/w4.xml | head -40"
+05:22:43 > shell "input keyevent 4; sleep 4"
