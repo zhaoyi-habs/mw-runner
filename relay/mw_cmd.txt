@@ -1,2 +1,2 @@
-shell "input tap 1000 431; sleep 2; input text 18702058818; sleep 2; input tap 960 537; sleep 2; input text 0987poiu; sleep 2; input keyevent 4; sleep 2; input tap 645 723; sleep 2; uiautomator dump /sdcard/wj.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wj.xml | head -40"
-#1792907491
+shell "input tap 960 638; sleep 15; uiautomator dump /sdcard/wk.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wk.xml | head -40"
+#1792907522
