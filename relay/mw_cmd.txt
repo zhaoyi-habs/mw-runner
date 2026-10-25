@@ -1,2 +1,2 @@
-shell "ls -l /tmp/uc.apk"
-#1792916983
+shell "pm list packages | grep -i mini; ls /tmp | head"
+#1792916992
