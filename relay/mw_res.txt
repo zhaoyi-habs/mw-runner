@@ -1,1 +1,1 @@
-OK|shell|ls: /tmp/uc.apk: No such file or directory
+WAIT|0
