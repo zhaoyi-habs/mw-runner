@@ -1,1 +1,1 @@
-OK|shell|0
+WAIT|0
