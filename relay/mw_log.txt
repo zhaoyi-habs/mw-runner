@@ -14,3 +14,4 @@
 04:25:48 ✅ 开机完成 32s
 04:25:54 PIL 不可用: No module named 'PIL'
 04:25:55 已清理后台  free=Mem:             7954        3738        4215           5         485
+04:25:56 abilist = x86_64,x86,arm64-v8a,armeabi-v7a,armeabi
