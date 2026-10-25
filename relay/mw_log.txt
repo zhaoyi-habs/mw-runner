@@ -1,4 +1,3 @@
-04:25:59 下载 APK 第 1 次
 04:29:42   得到 1731817567 B
 04:29:45   MD5 c933e1f49fde819f35c3c98f9d4bdae9
 04:29:46   ✅ 通过
@@ -139,3 +138,4 @@ Success
 05:40:07 > shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 2.2; $A exec-out screencap -p > /tmp/ta.png; python3 /tmp/su.py /tmp/ta.png dg3
 05:42:47 > shell "input tap 1035 600; sleep 2; am broadcast -a ADB_CLEAR_TEXT >/dev/null; sleep 1; am broadcast -a ADB_INPUT_TEXT --es msg '谭德堂' >/dev/null; sleep 2; input tap 1035 742; sleep 2; am broadcast -a 
 05:43:10 > shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 2.2; $A exec-out screencap -p > /tmp/tb.png; python3 /tmp/su.py /tmp/tb.png tan1
+05:44:41 > shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 2.4; $A exec-out screencap -p > /tmp/tc.png; python3 /tmp/su.py /tmp/tc.png tan2
