@@ -1,2 +1,2 @@
-shell "logcat -c; input tap 961 891; sleep 5; uiautomator dump /sdcard/w9.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/w9.xml | head -40"
-#1792905902
+shell "logcat -d -t 400 | grep -iE 'realname|verify|shiming|认证|ucsdk|gundam' | tail -30"
+#1792905903
