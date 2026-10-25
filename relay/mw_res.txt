@@ -1,1 +1,1 @@
-OK|shell|    mResumedActivity: ActivityRecord{ef95c2d u0 com.minitech.miniworld.uc/com.minitech.miniworld.StartupActivity t9}
+WAIT|0
