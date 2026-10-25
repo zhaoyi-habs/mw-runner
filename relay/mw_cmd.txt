@@ -1,2 +1,2 @@
-shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; curl -sL -o /tmp/su.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotup.py?x=$RANDOM'; $A shell input tap 961 891; sleep 1; $A exec-out screencap -p > /tmp/t2.png; python3 /tmp/su.py /tmp/t2.png toast2
-#1792906105
+shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 1; $A exec-out screencap -p > /tmp/t3.png; python3 /tmp/su.py /tmp/t3.png again3
+#1792906368
