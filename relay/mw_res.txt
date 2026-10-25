@@ -1,1 +1,4 @@
-WAIT|0
+OK|shell|com.minitech.miniworld] ]
+10-25 05:59:41.790   542   723 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=94, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10169 AdministratorUids: [] RequestorUid: 10169 RequestorPackageName: com.minitech.miniworld] ] with score 60 and providerId 3
+10-25 05:59:41.790   542   723 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=94, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10169 AdministratorUids: [] RequestorUid: 10169 RequestorPackageName: com.minitech.miniworld] ] with score 60 and providerId 3
+10-25 05:59:41.790  1142  1142 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=94, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10169 AdministratorUids: [] RequestorUid: 10169 RequestorPackageName: com.minitech.miniworld] ] with score 60 and providerId 3
