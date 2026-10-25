@@ -1,4 +1,3 @@
-04:44:39 > shot
 04:45:09 > shot
 04:45:34 > shot
 04:46:04 > shell "dumpsys window windows | grep -E 'Window #|mCurrentFocus' | head -8"
@@ -138,3 +137,4 @@
 05:55:36 > shell "ls -l /tmp/ | head -20; echo ---; cat /tmp/dl.log 2>&1 | tail -5; df -h /tmp | tail -2"
 05:55:50 > shell "echo x"; echo HOST; whoami; pwd; ls /tmp | head"
 05:55:56 > shell "echo D; ls /tmp | head"
+05:56:09 > shell "echo x"; ls -l /tmp/mw.apk /tmp/su.py /tmp/sf.py; echo ---; tail -3 /tmp/dl.log
