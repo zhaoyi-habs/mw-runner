@@ -1,2 +1,2 @@
-shell "dumpsys window | grep -E 'mCurrentFocus|mFocusedApp'"
-#1792905650
+shell "dumpsys input_method | grep -E 'mInputShown|mServedView|mCurMethodId'"
+#1792905651
