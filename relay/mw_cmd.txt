@@ -1,2 +1,2 @@
-shell "logcat -d -t 15"
-#1792905925
+shell "sed 's/></>\n</g' /sdcard/w9.xml | grep -E '提交|实名认证' | cut -c1-600"
+#1792905935
