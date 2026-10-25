@@ -1,2 +1,2 @@
-shell "grep -c text= /sdcard/w4.xml"
-#1792905741
+shell "grep -o 'text=[^ ]*' /sdcard/w4.xml | head -40"
+#1792905742
