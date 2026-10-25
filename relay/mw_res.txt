@@ -1,2 +1,1 @@
-OK|shell|"cn.uc.gamesdk.accountUnified:id/ac_phone_num_input" class="android.widget.EditText" package="com.minitech.miniworld.uc" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[758,379][1243,484]" />
-"cn.uc.gamesdk.accountUnified:id/ac_pwd_input" class="android.widget.EditText" package="com.minitech.miniworld.uc" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="true" selected="false" bounds="[624,485][1296,590]" />
+WAIT|0
