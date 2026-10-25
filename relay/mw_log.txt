@@ -24,3 +24,4 @@
 04:29:47 安装 1652 MB，预计 2-4 分钟
 04:30:00 install → Performing Streamed Install
 Success
+04:30:01 游戏已装: True
