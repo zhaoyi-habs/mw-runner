@@ -1,2 +1,2 @@
-shell "echo x"; echo "--- UA测试 ---"; curl -sI --max-time 20 -A "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/120 Mobile Safari/537.36" 'https://miniworld-apk.mini1.cn/latest/miniworldMini-wp.apk' | head -8; echo "--- 备选1 ---"; curl -sI --max-time 20 -A "Mozilla/5.0" 'https://mdownload.mini1.cn/latest/miniworldMini-wp.apk' | head -8
-#1792907602
+shell "echo x"; setsid nohup curl -sL --retry 3 -A "Mozilla/5.0 (Linux; Android 13)" -o /tmp/mw.apk 'https://miniworld-apk.mini1.cn/latest/miniworldMini-wp.apk' >/tmp/dl.log 2>&1 </dev/null & sleep 3; echo STARTED; ls -l /tmp/mw.apk 2>&1
+#1792907614
