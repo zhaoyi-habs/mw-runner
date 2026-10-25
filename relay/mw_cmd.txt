@@ -1,2 +1,2 @@
-shell "echo x"; curl -sL -o /tmp/ss.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/scanstr.py'; python3 /tmp/ss.py /tmp/apkx/lib/arm64-v8a/liblibGameApp.so 2>&1 | head -120
-#1792911604
+shell "am force-stop com.minitech.miniworld; sleep 2; monkey -p com.minitech.miniworld.uc -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 25; uiautomator dump /sdcard/wa1.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wa1.xml | head -20"
+#1792916213
