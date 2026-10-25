@@ -69,3 +69,4 @@ Success
 04:55:52 > shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; python3 /tmp/sf.py a3
 04:57:03 > shell "input tap 1176 780; sleep 8"
 04:57:18 > shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; python3 /tmp/sf.py a4
+04:58:20 > shell "input tap 1182 954; sleep 8"
