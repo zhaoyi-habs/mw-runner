@@ -1,2 +1,2 @@
-shell "dumpsys window windows | grep -E 'Window #|mCurrentFocus' | head -8"
-#1792903563
+shell "input keyevent 4; sleep 3"
+#1792903573
