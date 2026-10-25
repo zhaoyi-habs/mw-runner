@@ -1,2 +1,2 @@
-shell "echo x"; cd /tmp && rm -rf apkx && mkdir apkx && unzip -o -q mw.apk 'classes*.dex' -d apkx && ls -l apkx | head
-#1792911566
+shell "echo x"; cd /tmp && unzip -l mw.apk | head -40; echo ...; unzip -l mw.apk | sort -k1 -n -r | head -15
+#1792911575
