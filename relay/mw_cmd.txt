@@ -1,2 +1,2 @@
-shell "sed 's/></>\n</g' /sdcard/w7.xml | grep 提交 | grep -o 'bounds=[^/]*'"
-#1792905857
+shell "input keyevent 4; sleep 2; input tap 961 891; sleep 6; uiautomator dump /sdcard/w8.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/w8.xml | head -40"
+#1792905866
