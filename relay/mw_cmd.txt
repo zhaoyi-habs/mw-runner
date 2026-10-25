@@ -1,2 +1,2 @@
-ui
-#1792904830
+shell "echo x"; logcat -d -t 800 2>/dev/null | grep -iE 'sms|verif|yzm|sendcode|手机|验证码|gundam|juliang|mobtech' | tail -20
+#1792904941
