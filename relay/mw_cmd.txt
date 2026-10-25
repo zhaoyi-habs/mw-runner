@@ -1,2 +1,2 @@
-shell "monkey -p com.minitech.miniworld -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 35; uiautomator dump /sdcard/wo.xml >/dev/null 2>&1; sed 's/></>\n</g' /sdcard/wo.xml | grep -E '同意|不同意' | sed 's/.*text=/T=/;s/class.*bounds=/ B=/;s/ >//'"
-#1792907909
+shell "grep -o 'text=[^ ]*' /sdcard/wo.xml | head -30; echo ---; dumpsys window | grep mCurrentFocus"
+#1792907955
