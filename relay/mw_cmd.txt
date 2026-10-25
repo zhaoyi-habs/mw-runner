@@ -1,2 +1,2 @@
-shell "find / -name mw.apk -size +1000M 2>/dev/null | head -3"
-#1792917017
+shell "echo x"; mkdir -p /tmp; setsid nohup curl -sL --retry 5 -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' -o /tmp/uc.apk 'https://downali.9game.cn/s1/5/1/2026092111021541_com.minitech.miniworld.uc.apk?x-oss-process=udf/uc-apk,ZBHDgDZ0KFphAsOP8798b5952f437b6f' >/dev/null 2>&1 </dev/null & sleep 5; echo GO
+#1792917035
