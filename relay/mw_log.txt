@@ -131,3 +131,4 @@ Success
 05:23:37 > shell "ime enable com.android.adbkeyboard/.AdbIME; ime set com.android.adbkeyboard/.AdbIME; sleep 2; input tap 1035 600; sleep 3; am broadcast -a ADB_INPUT_TEXT --es msg '雷微露'; sleep 3"
 05:23:53 > shell "uiautomator dump /sdcard/w6.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/w6.xml | head -30"
 05:24:02 > shell "input tap 1035 742; sleep 2; input text 362324198812150029; sleep 2; uiautomator dump /sdcard/w7.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/w7.xml | head -30"
+05:24:19 > shell "sed 's/></>\n</g' /sdcard/w7.xml | grep 提交 | grep -o 'bounds=[^/]*'"
