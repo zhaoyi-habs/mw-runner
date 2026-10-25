@@ -1,4 +1,3 @@
-04:48:37 > shell "uiautomator dump /sdcard/u.xml >/dev/null 2>&1; cat /sdcard/u.xml | tr '>' '>\n' | grep -E '平台手机账号服务协议'"
 04:48:49 > shell "input tap 959 862; sleep 3"
 04:48:59 > shell "uiautomator dump /sdcard/u.xml >/dev/null 2>&1; grep -o 'checked=\"true\"' /sdcard/u.xml | wc -l"
 04:49:11 > shell "cat /sdcard/u.xml"
@@ -138,3 +137,4 @@
 05:59:50 > shell "pidof com.minitech.miniworld; dumpsys window | grep mCurrentFocus"
 05:59:56 > shell "logcat -d | grep -iE 'libmsaoaidsec|dlopen|UnsatisfiedLink|SIGSEGV|signal 11' | tail -20"
 06:58:50 > shell "cd /tmp && unzip -l mw.apk 'lib/*' 2>/dev/null | awk '{print \$4}' | cut -d/ -f1-2 | sort -u | head -20"
+06:59:01 > shell "echo x"; unzip -l /tmp/mw.apk "lib/*" 2>/dev/null | awk '{print $4}' | cut -d/ -f1-2 | sort -u | head -20
