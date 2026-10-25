@@ -1,2 +1,2 @@
-shell "sleep 90; ls -l /tmp/uc.apk"
-#1792916448
+shell "echo x"; ls -l /tmp/uc.apk; du -h /tmp/uc.apk"
+#1792916546
