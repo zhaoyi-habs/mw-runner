@@ -1,2 +1,1 @@
-OK|shell|x
-STARTED
+WAIT|0
