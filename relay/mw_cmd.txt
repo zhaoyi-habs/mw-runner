@@ -1,2 +1,2 @@
-shell "cat /sdcard/u.xml"
-#1792903749
+shell "input tap 960 637; sleep 8"
+#1792903759
