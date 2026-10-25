@@ -34,3 +34,4 @@ Success
 04:43:03 > ui
 04:43:15 > shell "input tap 1000 431; sleep 3"
 04:43:24 > shell "input text 18702058818; sleep 2"
+04:43:38 > ui
