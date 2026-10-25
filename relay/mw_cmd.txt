@@ -1,2 +1,2 @@
-shell "pm uninstall com.minitech.miniworld.uc; df -h /data | tail -1"
-#1792907778
+shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; time $A install -r -t -g /tmp/mw.apk 2>&1 | tail -3
+#1792907793
