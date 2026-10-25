@@ -1,1 +1,1 @@
-OK|shell|TIMEOUT
+WAIT|0
