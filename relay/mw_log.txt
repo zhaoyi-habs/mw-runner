@@ -1,4 +1,3 @@
-04:29:47 安装 1652 MB，预计 2-4 分钟
 04:30:00 install → Performing Streamed Install
 Success
 04:30:01 游戏已装: True
@@ -139,3 +138,4 @@ Success
 05:45:02 > shell "echo x"; A=/usr/local/lib/android/sdk/platform-tools/adb; $A shell input tap 961 891; sleep 3.0; $A exec-out screencap -p > /tmp/td.png; python3 /tmp/su.py /tmp/td.png tan3
 05:47:35 > shell "echo x"; nohup curl -sL -o /tmp/mw.apk 'https://miniworld-apk.mini1.cn/latest/miniworldMini-wp.apk' >/tmp/dl.log 2>&1 & echo STARTED
 05:48:29 > shell "ls -l /tmp/mw.apk; cat /tmp/dl.log"
+05:48:38 > shell "echo x"; curl -sIL --max-time 25 'https://miniworld-apk.mini1.cn/latest/miniworldMini-wp.apk' | head -20
