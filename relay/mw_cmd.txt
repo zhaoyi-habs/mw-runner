@@ -1,2 +1,2 @@
-shell "echo x"; ls -l /tmp/uc.apk"
-#1792916554
+shell "ls -l /tmp/uc.apk"
+#1792916562
