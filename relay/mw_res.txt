@@ -1,1 +1,1 @@
-OK|pong
+WAIT|0
