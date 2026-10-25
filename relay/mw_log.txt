@@ -1,4 +1,3 @@
-04:46:50 > ui
 04:47:01 > shell "logcat -d -t 300 | grep -iE 'sms|yzm|captcha|code|verify|gundam' | tail -12"
 04:47:11 > shot
 04:48:15 > shell "uiautomator dump /sdcard/u.xml >/dev/null 2>&1; cat /sdcard/u.xml | tr '>' '>\n' | grep -oE 'text=\"[^\"]*\"' | grep -v 'text=\"\"'"
@@ -138,3 +137,4 @@
 05:56:53 > shell "monkey -p com.minitech.miniworld -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 45; uiautomator dump /sdcard/wm.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wm.xml | head -30
 05:57:48 > shell "input tap 959 695; sleep 30; uiautomator dump /sdcard/wn.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/wn.xml | head -40"
 05:58:30 > shell "monkey -p com.minitech.miniworld -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; sleep 35; uiautomator dump /sdcard/wo.xml >/dev/null 2>&1; sed 's/></>\n</g' /sdcard/wo.xml | grep -E '同意
+05:59:16 > shell "grep -o 'text=[^ ]*' /sdcard/wo.xml | head -30; echo ---; dumpsys window | grep mCurrentFocus"
