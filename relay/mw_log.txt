@@ -125,3 +125,4 @@ Success
 05:22:33 > shell "grep -o 'text=[^ ]*' /sdcard/w4.xml | head -40"
 05:22:43 > shell "input keyevent 4; sleep 4"
 05:22:54 > shell "uiautomator dump /sdcard/w5.xml >/dev/null 2>&1; grep -o 'text=[^ ]*' /sdcard/w5.xml | grep -v 'text=.\{2\}' | head -40"
+05:23:03 > shell "ls -l /sdcard/w5.xml; grep -o 'text=[^ ]*' /sdcard/w5.xml | head -40"
