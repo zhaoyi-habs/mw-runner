@@ -1,1 +1,1 @@
-OK|shell|--------- beginning of main
+WAIT|0
