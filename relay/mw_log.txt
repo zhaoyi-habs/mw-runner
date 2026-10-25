@@ -107,3 +107,4 @@ Success
 05:18:17 > shell "echo x"; curl -sL -o /tmp/sf.py 'https://raw.githubusercontent.com/zhaoyi-habs/mw-runner/main/shotfix.py'; python3 /tmp/sf.py b1
 05:19:29 > shell "input tap 686 530; sleep 3"
 05:19:39 > ui
+05:19:51 > shell "uiautomator dump /sdcard/w.xml >/dev/null 2>&1; cat /sdcard/w.xml"
