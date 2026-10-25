@@ -57,3 +57,4 @@ Success
 04:49:20 > shell "input tap 960 637; sleep 8"
 04:49:35 > shell "uiautomator dump /sdcard/u.xml >/dev/null 2>&1; cat /sdcard/u.xml | tr '>' '>\n' | grep -oE 'text=\"[^\"]*\"' | grep -v 'text=\"\"'"
 04:50:12 > ping
+04:51:34 > ping
